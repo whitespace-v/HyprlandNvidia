@@ -41,12 +41,6 @@ set kernel parameters:
 ```
 i915.modeset=1 nvidia_drm.modeset=1 nvidia_drm.fbdev=1 nvidia.NVreg_PreserveVideoMemoryAllocations=1
 ```
-set kernel parameters:
-
-```
-i915.modeset=1 nvidia_drm.modeset=1 nvidia_drm.fbdev=1 nvidia.NVreg_PreserveVideoMemoryAllocations=1
-```
-
 edit /etc/mkinitcpio.conf:
 
 ```MODULES=(i915 nvidia nvidia_modeset nvidia_uvm nvidia_drm)```
