@@ -35,7 +35,9 @@ install:
 - egl-wayland
     
 NOTE: DO NOT install the vulkan-intel or lib32-vulkan-intel driver as this will be used before the nvidia driver and games will not be rendered by the nvidia gpu.
+
 Note that this forces performance mode to be active, resulting in increased power-consumption (from ~22W idle to ~74W [RTX 3070TI]).
+
 set kernel parameters:
 
 ```
