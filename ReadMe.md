@@ -20,21 +20,22 @@ hyprland
 hyprpaper
 hyprlock
 ### get ready for hyprland:
-```
+
 install:
-    lib32-nvidia-utils
-    libvdpau
-    opencl-nvidia
-    lib32-opencl-nvidia
-    libxnvctrl
-    mesa
-    lib32-mesa
-    libva-mesa-driver
-    mesa-vdpau
-    opencl-clover-mesa
-    egl-wayland
-    NOTE: DO NOT install the vulkan-intel or lib32-vulkan-intel driver as this will be used before the nvidia driver and games will not be rendered by the nvidia gpu.
-```
+    - lib32-nvidia-utils
+    - libvdpau
+    - opencl-nvidia
+    - lib32-opencl-nvidia
+    - libxnvctrl
+    - mesa
+    - lib32-mesa
+    - libva-mesa-driver
+    - mesa-vdpau
+    - opencl-clover-mesa
+    - egl-wayland
+    
+NOTE: DO NOT install the vulkan-intel or lib32-vulkan-intel driver as this will be used before the nvidia driver and games will not be rendered by the nvidia gpu.
+
 set kernel parameters:
 
 ```
